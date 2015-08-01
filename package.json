@@ -1,7 +1,7 @@
 {
   "name": "to-mit",
   "description": "Does one simple thing: coverts the `license` field in package.json to `MIT`, or adds the license field with `MIT` if it does not already exist.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/jonschlinkert/to-mit",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "jonschlinkert/to-mit",
