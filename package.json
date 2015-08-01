@@ -1,0 +1,38 @@
+{
+  "name": "to-mit",
+  "description": "Does one simple thing: coverts the `license` field in package.json to `MIT`, or adds the license field with `MIT` if it does not already exist.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/to-mit",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/to-mit",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/to-mit/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "cli.js"
+  ],
+  "preferGlobal": true,
+  "bin": {
+    "to-mit": "cli.js"
+  },
+  "main": "cli.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "ansi-green": "^0.1.1",
+    "ansi-red": "^0.1.1",
+    "error-symbol": "^0.1.0",
+    "load-pkg": "^1.3.0",
+    "success-symbol": "^0.1.0",
+    "write": "^0.2.1"
+  },
+  "keywords": [
+    "license",
+    "mit"
+  ]
+}
